@@ -1,1 +1,32 @@
 /*  your css code here. If applicable */
+:root {
+    background-color: rgb(135, 206, 235);
+}
+
+.first-child {
+    background-color: black;
+    color: white;
+}
+
+.child-3rd {
+    color: red;
+}
+
+.first-item, .fifth-item, .third-item{
+    background-color: white;
+    width: 50%;
+    padding: 10px;
+}
+
+.second-item, .fourth-item {
+    background-color: grey;
+    width: 50%;
+    padding: 10px;
+}
+
+.first-item, .fifth-item {
+    font-size: 22px;
+}
+.third-item {
+    background-color: pink;
+}
