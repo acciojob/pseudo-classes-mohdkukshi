@@ -1,32 +1,49 @@
 /*  your css code here. If applicable */
 :root {
     background-color: rgb(135, 206, 235);
-}
-
-.first-child {
-    background-color: black;
+  }
+  
+  article {
+    margin-bottom: 20px;
+  }
+  
+  p:first-child {
     color: white;
-}
-
-.child-3rd {
+    background-color: black;
+  }
+  
+  p:nth-child(2) {
+    color: black;
+  }
+  
+  p:last-child {
     color: red;
-}
-
-.first-item, .fifth-item, .third-item{
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    width: 50%;
+    padding: 10px;
+  }
+  
+  li:nth-child(odd) {
     background-color: white;
-    width: 50%;
-    padding: 10px;
-}
-
-.second-item, .fourth-item {
-    background-color: grey;
-    width: 50%;
-    padding: 10px;
-}
-
-.first-item, .fifth-item {
+  }
+  
+  li:nth-child(2n) {
+    background-color: gray;
+  }
+  
+  li:first-child,
+  li:last-child {
     font-size: 22px;
-}
-.third-item {
+  }
+  
+  li:nth-last-child(3) {
     background-color: pink;
-}
+  }
+  
